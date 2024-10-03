@@ -73,6 +73,10 @@ ol {
   color: var(--navy-blue);
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .contacts-item {
   font-family: var(--font-family);
   font-weight: 400;
@@ -98,8 +102,8 @@ ol {
   line-height: 107%;
   letter-spacing: 0.02em;
   color: var(--white);
+  /*text-align: center;*/
 }
-/*text-align: center;*/
 
 .hero-btn {
   font-family: var(--font-family);
@@ -107,11 +111,20 @@ ol {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
-  color: var(--primary-white-color);
+  color: var(--white);
   background: var(--iris);
+  /*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
   cursor: pointer;
 }
-/*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--ocean);
+}
+
+.section-hero {
+  background-color: var(--navy-blue);
+}
 
 /* Section */
 
@@ -122,10 +135,10 @@ ol {
   line-height: 111%;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  /*text-align: center;*/
 }
-/*text-align: center;*/
 
-h3 {
+.subtitle /*h3*/ {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
@@ -144,19 +157,43 @@ p {
 }
 
 /* Our advantages */
-.visually-hidden {
+
+/*.visually-hidden {
   display: none;
-}
+}*/
 
 /* Out team */
-.section-portfolio > h3,
-.section-portfolio > p {
+
+/*.section-portfolio .subtitle,
+.section-portfolio .text {
+text-align: center;
+}*/
+
+.section-team {
+  background-color: var(--cloud);
 }
-/*text-align: center;*/
+
+.section-team .subtitle /*h3*/ {
+  text-transform: capitalize;
+}
+
+.team-item {
+  background-color: var(--white);
+}
+
+p {
+  font-size: 16px;
+}
 
 /*Our Portfolio*/
+.section-portfolio .subtitle /*h3*/ {
+  text-transform: capitalize;
+}
 
 /* Footer */
+.footer {
+  background-color: var(--navy-blue);
+}
 
 .footer > p {
   color: var(--cloud);
