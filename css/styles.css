@@ -20,7 +20,7 @@ body {
   color: var(--slate);
   background-color: var(--white);
   font-size: 16px;
-  /* line-height: 150%; */
+  line-height: 150%;
   letter-spacing: 2%;
 }
 
@@ -28,9 +28,9 @@ body {
 
 .logo {
   font-family: var(--second-family);
-  /* font-weight: 700; */
+  font-weight: 700;
   font-size: 18px;
-  /* line-height: 117%; */
+  line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
@@ -66,9 +66,9 @@ ol {
 
 .nav-item {
   font-family: var(--font-family);
-  /* font-weight: 500; */
+  font-weight: 500;
   font-size: 16px;
-  /* line-height: 150%; */
+  line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
@@ -79,9 +79,9 @@ ol {
 
 .contacts-item {
   font-family: var(--font-family);
-  /* font-weight: 400; */
+  font-weight: 400;
   font-size: 16px;
-  /* line-height: 150%; */
+  line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
@@ -107,13 +107,12 @@ ol {
 
 .hero-btn {
   font-family: var(--font-family);
-  /* font-weight: 500; */
+  font-weight: 500;
   font-size: 16px;
-  /* line-height: 150%; */
+  line-height: 150%;
   letter-spacing: 0.04em;
   color: var(--white);
   background: var(--iris);
-  /*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
   cursor: pointer;
 }
 
@@ -130,9 +129,9 @@ ol {
 
 .section-title {
   font-family: var(--font-family);
-  /* font-weight: 700; */
+  font-weight: 700;
   font-size: 36px;
-  /* line-height: 111%; */
+  line-height: 111%;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   /*text-align: center;*/
@@ -140,18 +139,18 @@ ol {
 
 .subtitle /*h3*/ {
   font-family: var(--font-family);
-  /* font-weight: 500; */
+  font-weight: 500;
   font-size: 20px;
-  /* line-height: 120%; */
+  line-height: 120%;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
 p {
   font-family: var(--font-family);
-  /* font-weight: 400; */
+  font-weight: 400;
   font-size: 16px;
-  /* line-height: 150%; */
+  line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
