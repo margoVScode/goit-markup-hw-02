@@ -108,7 +108,6 @@ ol {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: var(--primary-white-color);
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--iris);
   cursor: pointer;
 }
