@@ -97,9 +97,9 @@ ol {
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--white);
 }
+/*text-align: center;*/
 
 .hero-btn {
   font-family: var(--font-family);
@@ -111,6 +111,7 @@ ol {
   background: var(--iris);
   cursor: pointer;
 }
+/*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
 
 /* Section */
 
@@ -120,9 +121,9 @@ ol {
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--navy-blue);
 }
+/*text-align: center;*/
 
 h3 {
   font-family: var(--font-family);
@@ -150,8 +151,8 @@ p {
 /* Out team */
 .section-portfolio > h3,
 .section-portfolio > p {
-  text-align: center;
 }
+/*text-align: center;*/
 
 /*Our Portfolio*/
 
