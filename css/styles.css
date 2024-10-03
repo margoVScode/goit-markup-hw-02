@@ -1,18 +1,47 @@
 :root {
-  --primary-text-color: #434455; /*slate*/
-  --accent-text-color: #2e2f42; /*navy-blue*/
-  --primary-white-color: #ffffff;
-  --accent-color: #4d5ae5; /*iris*/
-  --footer-text-color: #f4f4fd; /*cloud*/
-  --primary-background-color: #ffffff;
-  --secondary-background-color: #f4f4fd; /*cloud*/
-  --accent-background-color: #2e2f42; /*navy-blue*/
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--primary-text-color);
-  background-color: var(--primary-background-color);
+  color: var(--slate);
+  background-color: var(--white);
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 2%;
+}
+
+/*Logo*/
+
+.logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.header-logo .logo-part {
+  color: var(--navy-blue);
+}
+
+.footer-logo .logo-part {
+  color: var(--cloud);
 }
 
 /*Link*/
@@ -33,30 +62,7 @@ ol {
   list-style-type: none;
 }
 
-/* Headings */
-
 /* Site-nav */
-.nav-link:hover,
-.hav-link:focus {
-  color: 404BBF;
-}
-
-.logo {
-  color: var(--accent-color);
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.header-logo .logo-part {
-  color: var(--accent-text-color);
-}
-
-.footer-logo .logo-part {
-  color: var(--footer-text-color);
-}
 
 .nav-item {
   font-family: var(--font-family);
@@ -64,12 +70,7 @@ ol {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--accent-text-color);
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: var(--accent-color);
+  color: var(--navy-blue);
 }
 
 .contacts-item {
@@ -78,12 +79,69 @@ ol {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--slate);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--ocean);
 }
 
 /* Section-hero */
 
+.hero-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+
+.hero-btn {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--primary-white-color);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: var(--iris);
+  cursor: pointer;
+}
+
 /* Section */
+
+.section-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+h3 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
 
 /* Our advantages */
 .visually-hidden {
@@ -91,5 +149,15 @@ ol {
 }
 
 /* Out team */
+.section-portfolio > h3,
+.section-portfolio > p {
+  text-align: center;
+}
+
+/*Our Portfolio*/
 
 /* Footer */
+
+.footer > p {
+  color: var(--cloud);
+}
